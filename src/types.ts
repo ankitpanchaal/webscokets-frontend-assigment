@@ -3,7 +3,6 @@ type TSymbol = {
   value: string;
 };
 
-// types.ts
 type TickData = {
   timestamp_str: string;
   symbol: string;

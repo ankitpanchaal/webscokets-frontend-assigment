@@ -66,7 +66,7 @@ const Chart: React.FC<ChartProps> = ({ latestData, resetChart }) => {
 
   useEffect(() => {
     if (latestData && seriesRef.current) {
-      console.log("Adding new data point:", latestData);
+      console.log("Adding new data point >?> ", latestData);
       const newPoint: LineData = {
         // time: new Date(latestData.timestamp_str).getTime() / 1000,
         time: (new Date(latestData.timestamp_str).getTime() / 1000) as Time,

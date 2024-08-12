@@ -45,6 +45,7 @@ const List = ({ stockData, watchlist, removeFromWatchlist }: ListProps) => {
         label: item.label,
       }));
 
+  //UI
   const renderSymbolColumn = () => (
     <ResizablePanel defaultSize={30} minSize={20} maxSize={50}>
       <table className="w-full table-auto">
